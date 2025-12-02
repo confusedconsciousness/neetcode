@@ -10,7 +10,7 @@ public class EncodeAndDecodeStrings {
         StringBuilder sb = new StringBuilder();
         int n = strs.size();
         if (n < 1)
-            return "";
+            return null;
         for (int i = 0; i < n - 1; ++i) {
             sb.append(strs.get(i));
             sb.append(DELIMITER);
